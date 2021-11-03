@@ -19,6 +19,9 @@ const handleUserInput = function() {
     if (key === 'd') {
       connection.write("Move: right");
     }
+    if (key === 'f') {
+      connection.write("Say: I'm the Champion!");
+    }
   });
 };
 
